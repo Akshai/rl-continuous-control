@@ -8,7 +8,7 @@ import os
 import argparse
 
 
-env = UnityEnvironment(file_name="Reacher_multi.app")
+env = UnityEnvironment(file_name="Reacher.app")
 
 # get the default brain
 brain_name = env.brain_names[0]

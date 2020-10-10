@@ -7,7 +7,7 @@ def process(args):
     NUM_AGENTS = 20
     ACTOR_CHECKPOINT_PATH = args.actor_checkpoint
     CRITIC_CHECKPOINT_PATH = args.critic_checkpoint
-    env = UnityEnvironment(file_name="Reacher_multi.app")
+    env = UnityEnvironment(file_name="Reacher.app")
     brain_name = env.brain_names[0]
     env_info = env.reset(train_mode=False)[brain_name]     # reset the environment    
     states = env_info.vector_observations                  # get the current state (for each agent)
