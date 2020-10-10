@@ -56,11 +56,11 @@ python train.py
 From the home path **rl-continuous-control/**, run the following command to visualize the trained agent:
 
 ```bash
-python visualize.py <Path to your trained checkpoint>
+python visualize.py
 ```
 
 # Video Demo: <br />
-[![Video Demo](https://www.youtube.com/watch?v=l42uVQITrzY/0.jpg)](https://www.youtube.com/watch?v=l42uVQITrzY)
+[![Video Demo](https://img.youtube.com/vi/l42uVQITrzY/0.jpg)](https://www.youtube.com/watch?v=l42uVQITrzY)
 
 
 

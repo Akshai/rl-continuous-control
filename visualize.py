@@ -36,8 +36,8 @@ def process(args):
 
 def get_args():
     parser = argparse.ArgumentParser(description='Visualize the navigation of a trained model')
-    parser.add_argument('--actor_checkpoint', help ='Path to the trained actor model', default= 'trained_checkpoints/actor_checkpoint_92.pth')
-    parser.add_argument('--critic_checkpoint', help ='Path to the trained critic model',default= 'trained_checkpoints/critic_checkpoint_92.pth')
+    parser.add_argument('--actor_checkpoint', help ='Path to the trained actor model', default= 'trained_checkpoints/actor_checkpoint.pth')
+    parser.add_argument('--critic_checkpoint', help ='Path to the trained critic model',default= 'trained_checkpoints/critic_checkpoint.pth')
     return parser.parse_args()
 
 if __name__ == '__main__':
